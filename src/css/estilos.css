@@ -1,0 +1,51 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin:0 auto;
+    background-color: #5e5b5bad;
+    color: #333333;
+}
+
+body.mode-escuro{
+    background-color: #212121;
+    color: #f5f5f5;
+}
+
+header{
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+
+}
+
+header .logo,
+header .imagem-botao{
+    width: 30px;
+}
+
+header #botao-alterar-tema{
+    background: none;
+    border: none;
+}
+
+header .logo:hover,
+header .imagem-botao:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+main{
+    background-color: red;
+    padding: 25px;
+}
+
+main .listagem-pokemon{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .card{
+    background-color: #d8e3ec;
+    width: 200px;
+}
